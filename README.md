@@ -6,7 +6,7 @@ Connection URI should be obtained by deploy MongoDB database by Atlas or locally
 But MongoDB Atlas Vector Search supports native vector search(HNSW).
 
 MongoDB（mongosh) needs third library(FAISS, HNSWlib) to support ANN(Approximate Nearest Neighbor) vector search.
-##Build
+## Build
 ``` sh
 $ cd thirdparty
 $ bash build.sh
