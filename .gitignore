@@ -1,0 +1,5 @@
+# 在项目根目录创建或编辑 .gitignore
+echo "build/" >> .gitignore
+echo "*/build/" >> .gitignore 
+echo "thirdparty/installed/" >> .gitignore
+echo "thirdparty/src/" >> .gitignore
